@@ -1,0 +1,12 @@
+.about-img img{
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 5px 0px silver;
+    margin: 5px;
+}
+.about-me{
+    align-items: center;
+    width: 300px;
+    height: 50%;
+    margin: auto;
+}

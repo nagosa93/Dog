@@ -1,0 +1,49 @@
+.admin-actions{
+    width: 60%;
+    margin: 20px auto;
+}
+
+@media (max-width:500px){
+    .admin-actions{
+        width: 100%;
+    }
+    
+}
+.login-form{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    width: 250px;
+    margin: auto;
+    height: 250px;
+}
+.login{
+    padding: 2px 16px;
+}
+.action-form, input[type=text]{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    /* width: 100%; */
+    width: 250px;
+    margin: auto;
+    /* height: 250px; */
+}
+
+.action-form input[type=submit]{
+    border-radius: 5px;
+    border: 1px solid #26c6da;
+    width: 50%;
+    background-color: transparent;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.action-form input[type=file]{
+    border-radius: 5px;
+    border: 1px solid #d9dedf;
+    width: 50%;
+    background-color: transparent;
+    margin-top: 10px;
+    padding: 5px;
+    width: 100%;
+}

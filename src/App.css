@@ -1,0 +1,92 @@
+
+
+
+.App {
+  text-align: center;
+}
+.main-container{
+  min-height: 80vh;
+}
+body h1 , p{
+  font-family: 'Nunito', sans-serif;
+}
+
+.navbar-dark{
+  background-color: #26c6da!important;
+}
+.login-form{
+  position: relative;
+  top: 120px;
+  width: fit-content;
+  margin: auto;
+}
+
+body input[type=text]{
+  border-radius: 5px;
+    padding: 5px;
+    border: unset;
+    box-shadow: 0 0 3px 1px silver;
+    width: 100%;
+}
+
+.login-form input[type=submit]{
+    border-radius: 5px;
+    border: 1px solid #26c6da;
+    width: 50%;
+    background-color: transparent;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.login-form input[type=submit]:hover{
+  background-color: #26c6da;
+}
+.contact-form{
+  border-radius: 5px;
+  border: 1px solid cyan;
+  margin: 20px auto;
+  width: 500px;
+  padding: 0 15px;
+  height: 350px;
+}
+.btn-primary:hover{
+    background-color: #26c6da;
+}
+
+.btn-primary{
+  background-color: white;
+  border: 1px solid #26c6da;
+  color: #26c6da;
+}
+
+
+
+/* .App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */

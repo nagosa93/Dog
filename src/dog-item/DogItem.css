@@ -1,0 +1,51 @@
+.dog-item{
+    width: 250px;
+    height: 300px;
+    /* border:1px solid silver; */
+    box-shadow: 0 0 5px 0px silver;
+    margin: 5px;
+    position: relative;
+    overflow: hidden;
+}
+.adopt-tag{
+    background-color: lightyellow;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: -50px;
+    top: 15px;
+    width: 150px;
+  }
+
+.dog-image{
+    height:170px;
+}
+
+.dog-item img{
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    border:1px solid silver;
+    margin: 10px;
+}
+.dog-name{
+    width: 100%;
+    height:40px;
+    background-color: #26c6da;
+    padding: 5px;
+    font-weight: 600;
+}
+
+
+.info-item{
+    float: right;
+    width: 33.33%;
+    height: 100%;
+    border-right:1px solid silver; 
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
